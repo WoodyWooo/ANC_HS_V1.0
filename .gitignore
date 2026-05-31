@@ -1,0 +1,96 @@
+# STM32CubeIDE / Eclipse
+.metadata/
+.recommenders/
+.settings/
+.project
+.cproject
+.mxproject
+*.launch
+*.prefs
+*.log
+
+# STM32CubeMX backups / temporary files
+*.ioc.bak
+*.mxproject.bak
+*.bak
+*.tmp
+
+# Build output
+Debug/
+Release/
+build/
+Build/
+out/
+bin/
+obj/
+
+# Compiled objects / binaries
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.lst
+*.su
+*.d
+*.dep
+*.a
+*.lib
+
+# Debug / trace / coverage
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# Static analysis / generated reports
+*.cyclo
+*.htm
+*.html
+*.xml
+*.sarif
+
+# ARM / GCC / linker generated files
+*.srec
+*.sym
+*.dis
+*.dump
+
+# IDE indexing / cache
+.index/
+*.idx
+*.sc
+*.scc
+
+# STM32CubeIDE local debug/server files
+ST-LINK_gdbserver_log.txt
+st-link_gdbserver_log.txt
+*.stldr.log
+
+# CMake, if used
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# VS Code, if also used
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Python helper scripts / virtual environments, if used
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
