@@ -63,10 +63,14 @@ void Error_Handler(void);
 #define HW_EN_GPIO_Port GPIOB
 #define PB_1_INPUT_Pin GPIO_PIN_11
 #define PB_1_INPUT_GPIO_Port GPIOA
+#define PB_1_INPUT_PC13_Pin GPIO_PIN_13
+#define PB_1_INPUT_PC13_GPIO_Port GPIOC
 #define REG_ON_Pin GPIO_PIN_12
 #define REG_ON_GPIO_Port GPIOB
-#define STATUS_Pin GPIO_PIN_4
-#define STATUS_GPIO_Port GPIOE
+#define STATUS1_Pin GPIO_PIN_4
+#define STATUS1_GPIO_Port GPIOE
+#define MONITOR_ENABLE_Pin GPIO_PIN_3
+#define MONITOR_ENABLE_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
 
